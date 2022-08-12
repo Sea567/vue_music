@@ -1,0 +1,65 @@
+/* 全局样式表 */
+@import 'http://at.alicdn.com/t/font_3325157_ynwil2jf7hi.css'; 
+
+html,body,#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 全局隐藏滚动条 */
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+::-webkit-scrollbar {
+  width: 0 !important;height: 0;
+}
+/*用于阿里icon第三种引用，暂时不用*/
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+html,body{
+  scroll-behavior: smooth
+}
+span{
+  cursor: default;
+}
+
+
+/* 使用此类时, 使主体大盒子自动居中 */
+/* 视窗宽度小于1370px时 */
+@media screen and (max-width: 1370px) {
+
+  .autoCenter{
+    width: 100%;
+    margin: 0px auto;
+  }
+}
+/* // 视窗宽度大于1370px时 */
+@media screen and (min-width: 1370px) {
+
+  .autoCenter {
+    width: 1100px;
+    margin: 0px auto;
+  }
+}
+
+
+/* // 自定义el-col宽度,使其每行显示5个 */
+.el-col-25 {
+  width: 20%;
+}
+/* // 解决el-row排版错乱的问题 */
+.el-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
