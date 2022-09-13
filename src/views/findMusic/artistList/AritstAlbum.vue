@@ -1,6 +1,6 @@
 <template>
   <div class="artistalbum-container">
-        <!-- 热门50首区域 -->
+        <!-- 热门50首区域llll -->
     <div class="top50">
       <div class="top50-img">
         <img src="@/assets/img/Top50.png" alt="" />
